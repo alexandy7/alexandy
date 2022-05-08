@@ -1,39 +1,141 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pbrt-">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trabalhando com links</title>
+    <title>Anotações</title>
+    <style>
+        body { 
+            background-color: rgb(212, 206, 206);
+            font: normal 16pt arial
+        }
+        h1 {
+            color: rgb(255, 115, 0); 
+        }
+    
+    </style>
+    <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon">
 </head>
 <body>
-    <h1>usando links externos</h1>
-    <ul>
-        <li>
-            <p>testando um link externo com o grande video, basta <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" rel="external">clicar aqui.</a></p>
-        </li>
-    </ul>
-    <ul>
-        <li>
-            <p>ou voce tambem pode <a href="https://r.search.yahoo.com/_ylt=AwrJ7GFmHQFieC4AYwPz6Qt.;_ylu=Y29sbwNiZjEEcG9zAzMEdnRpZAMEc2VjA3Ny/RV=2/RE=1644269031/RO=10/RU=https%3a%2f%2fwww.techtudo.com.br%2ftudo-sobre%2fgithub.html/RK=2/RS=9kfLjKHr.hhqtRBwHPHlWTXzoQw-" target="_blank" rel="external">clicar aqui</a> para ser direcionado para o GitHub😀</p>
-        </li>
-    </ul>
-    <h2>paginas secundarias dentro do site 
-        
-    </h2>
-    <ul>
-        <li>
-            <p>para ir para a segunda pagina é so entrar ali 👉 <a href="pag002.html" rel="next">aqui mane</a> </p>
-        </li>
-    </ul>
-    <h2>teste para baixar um arquivo</h2>
-  
-        <ul>
-            <li>
-                <p>aqui para baixar o <a href="livro/th-convertido.pdf" download="th-covertido.pdf" type="application/pdf" target="_blank">arquivo</a>...</p>
-            </li>
-        </ul>
-        <p><strong>obs</strong>: como é em arquivo pdf abre uma <br> pagina para poder baixa-lo e não baixa direto,<br> mas isto depende do navegador, alguns ja baixam direto</p>
+    <h1>JavaScript</h1>
 
+    Até agora onde aprendi para se programar em java deve-se abrir uma tag <q>script</q> dentro de body. <br>
+
+        Primeiro comando que aprendi foi o <q><strong>window.alert('')</strong></q>, que serve basicamente para aparecer um <br>alerta em cima da pagina com alguma mensagem, o <q><strong>window.confirm('')</strong></q> que é para aparecer <br> uma janela de confirmação e o <q><strong>window.prompt('')</strong></q> que você escreve algo como resposta. <br>
+        <br>
+        Para ficar mais facil de se entender, vou adicionar uma foto de como fica o comando de um modo geral. <br>
+
+        
+        <img src="imagens/2022-04-03.png" alt="exemplo de como fica o codigo na pratica"> <br>
+
+        <ul>
+            <li>window.alert('')</li> <br>
+        
+        
+<hr>
+        <img src="imagens/2022-03-06.png" alt="exemplo do alerta "> <br>
+        <hr>
+
+        <li>window.confirm('')</li> <br>
+
+        <img src="imagens/2022-04-03 (1).png" alt="exemplo de um comando de JavaScript"><br>
+        <hr>
+
+        <li>window.prompt('')</li> <br>
+</ul>
+        <img src="imagens/2022-04-03 (2).png" alt="exemplo de um comando de JavaScript"><br>
+
+    
+      
+        (inclusive provavelmente quando vc abriu este site deve ter aparecido uma janela de alerta) <br>
+        Uma observação que é de css e não de JS, mas whatever.
+            É que para se escolher um estilo de cor para o fundo do site ou das lfetras, é preciso abrir uma tag "style"
+        <hr>
+        <h2>
+            <a href="Mudanças_sites/mudançasite.html">Mudanças em sites ja prontos</a>
+        </h2>
+        <p>
+            Com JS. tem uma forma de mudar alguns titulos em sites ja feitos, para mudar os titulos <br> de algum site ou até mesmo qualquer coisa nele, deve-se clicar com o botão direito em uma <br> area em branca no site 
+        </p>
+<img src="imagens/2022-03-14 (1).png" alt="">
+<p>
+    Logo após clique em "inspecionar"
+</p>
+<img src="imagens/2022-03-14.png" alt="">
+
+<p>
+    E depois em "console", ai lá mesmo ja digita seus códigos
+</p>
+<img src="imagens/2022-03-14 (3).png" alt="">
+<hr>
+<h2>"Desligar o codigo"</h2>
+<ul>
+    <li>Para "desligar" o código basta digitar o comando <q><strong>//</strong></q> quando for apenas uma linha <br> de código, para desligar mais de uma linha, usa-se o comando <q><strong>/*</strong></q> e fecha com <q><strong>*/</strong></q>.</li>  <br>
+    <li>
+        Este "Desligar o código" é basicamente escrever um código mas fazer com que <br> ele não funcione por enquanto. <br>
+        (Tem como usar o <q>//</q> também depois de uma linha de código para colocar um comentario sobre <br> oque ela faz ou sobre qualquer coisa. )
+    </li>
+</ul> <br>
+<br>
+Exemplo dos dois tipos de "desligamentos" : <br>
+<img src="imagens/2022-04-03 (3).png" alt="Exemplo do comando em JavaScript">
+<hr>
+<h2>Váriaveis</h2>
+<ul>
+    <li>Váriaveis são tipo o 'imput' de python, para se criar uma váriavel tem que escrever o seguinte comando:</li> 
+    var nome = 'Carlos'
+    <li>No lugar de nome deve-se colocar o nome da sua váriavel, e onde está escrito "Carlos", é a váriavel.</li> 
+    <li>Para criar um nome de alguma váriavel tem algumas regras a serem seguidas, a seguir irei colocar 2 fotos</li>  para ficar melhor o entendimento. <br>
+    <li>Uma sobre o código, e outra das regras para se criar o nome da váriavel.</li>
+    <h6>(obs: só testei tudo isso no node js, no vs code não sei se muda alguma coisa por conta que para fazer isso usa-se um terminal)</h6>
+    <img src="imagens/2022-04-03 (5).png" alt="Exemplo de váriavel"> <br>
+    Agora as regras: <br>
+    <img src="imagens/2022-04-03 (4).png" alt=""> <br>
+    <p>
+        <strong>
+<h6>obs: palavras reservadas são comandos de js, tipo: hr, strong, ul, img e etc.</h6>
+        </strong>
+    </p>
+    <hr>
+ <h2>Data type</h2>
+
+   Oque é um data type? Bom, um data type é a classificação das variáveis. <br> Neste curso usaremos 3 como os principais, que são:
+    <br>
+    <br>
+    <li>Number = todos os números</li>
+    <li>String = conjunto de caracteres (números, letras, símbolos todos juntos)</li>
+    <li>Boolean = True or False</li> <br>
+    <p>Para saber o data type basta usar o comando "Typeof variável" (a variável ali é a variável que você quer saber o data type), assim irá aparecer. Irei colocar uma foto abaixo para facilitar o entendimento: </p> <br>
+    <img src="imagens/datatype.png" alt="Exemplo do DataType">
+    <hr>
+
+    <h2>Usando variáveis</h2>
+
+    <p>Primeira forma que aprendi a usar as variáveis foi com <br> o "Window.prompt()" / "Window.alert()", os dois comandos <br> funcionam em conjunto. Para usar a variável basta colocar ela antes destes. <br> Colocarei fotos abaixo para demonstrar:</p> <br>
+    <p>Comandos</p>
+    <img src="imagens/ex de variavel1.png" alt=""> <br>
+    <hr>
+    <p>Primeira janela</p>
+    <img src="imagens/ex variavel2.png" alt=""> <br>
+    <hr>
+    <p>segunda janela</p>
+    <img src="imagens/ex variavel3.png" alt="">
+
+
+    <script>
+        /* var nome = window.prompt('Qual o seu nome?')
+       alert('Olá, como você esta '+ nome + '?' ) */
+    </script>
+    
+
+</ul> 
+        <script>
+    
+            //window.alert('bem vindo a sua pagina de estudos!')//aparece uma janela de mensagem
+            /*window.confirm('esta tudo bem?')//aparece uma janela para confirmar algo
+            window.prompt('Responda com qualquer coisa')//aparece uma janela com uma frase e um local para responder
+           */
+        </script> 
 </body>
 </html>
